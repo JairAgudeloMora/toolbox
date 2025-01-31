@@ -1,5 +1,4 @@
-// test/utils/parseCsv.test.js
-const parseCsv = require('../../src/utils/parseCsv')
+const parseCsv = require('./parseCsv')
 const { expect } = require('chai')
 
 describe('parseCsv', () => {
