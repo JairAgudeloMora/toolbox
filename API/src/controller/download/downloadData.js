@@ -19,7 +19,7 @@ const downloadAllFormatedData = async (req, res) => {
       const fileData = await fetchCsvParsedDataFiles(fileName)
       return res.status(200).json({
         file: fileData?.file,
-        lines: fileData?.lines,
+        lines: fileData?.lines
       })
     }
 

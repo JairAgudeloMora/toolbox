@@ -31,6 +31,10 @@ Asegúrate de tener instalado:
    ```sh
    npm test
    ```
+6. Para ejecutar standard:
+   ```sh
+   npm run standard
+   ```
 
 ## Configuración y ejecución del Cliente Frontend
 
